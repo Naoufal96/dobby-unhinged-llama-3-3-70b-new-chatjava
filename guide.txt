@@ -1,0 +1,13 @@
+The purpose of this Java code is to interact with Dobby-70B (a language model powered by Fireworks API) through an interactive chat session. The user sends a message, and the program makes an API call to Fireworks' API, which processes the input and returns a response from Dobby-70B. This allows real-time conversational interaction with the model.
+
+The main functionality of the code includes:
+
+1-Sending user input to the Fireworks API.
+
+2-Receiving model-generated responses from Dobby-70B.
+
+3-Displaying the response back to the user.
+
+4-Maintaining a chat loop where users can continuously interact with the model.
+
+5-Graceful exit from the chat session when the user types "exit."
